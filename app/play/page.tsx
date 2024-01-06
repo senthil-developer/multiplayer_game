@@ -4,7 +4,8 @@ import { Scene } from "@/components/Scene";
 import { SocketIndicator } from "@/components/Connection";
 
 const PlayPage = () => {
-  console.log(SocketIndicator);
+  console.log("PlayPage" + SocketIndicator);
+
   return (
     <>
       <SocketIndicator />
